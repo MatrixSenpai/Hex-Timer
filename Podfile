@@ -5,7 +5,6 @@ target 'Hex Timer' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-<<<<<<< HEAD
   pod 'MMDrawerController'
   pod 'FontAwesome.swift'
   pod 'Neon'
@@ -24,9 +23,4 @@ post_install do | installer |
 
   puts 'Copying acknowledgements to Settings.bundle'
   FileUtils.cp_r(pods_acknowledgements_path, "#{settings_bundle_path}/Acknowledgements.plist", :remove_destination => true)
-=======
-  pod 'Neon'
-  pod 'MMDrawerController'
-  pod 'FontAwesome.swift'
->>>>>>> 035d62cbcf2c0c85a77ed611ec8c4a109d7d7678
 end
