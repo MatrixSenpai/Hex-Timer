@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "66BF449A1CEFA75400A04CA3"
+               BuildableName = "Hex Watch Timer.app"
+               BlueprintName = "Hex Watch Timer"
+               ReferencedContainer = "container:Hex Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "669C6D031CEF7CF00003F319"
+               BuildableName = "Hex Timer.app"
+               BlueprintName = "Hex Timer"
+               ReferencedContainer = "container:Hex Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "66BF44A61CEFA75400A04CA3"
+               BuildableName = "Hex Watch Timer Extension.appex"
+               BlueprintName = "Hex Watch Timer Extension"
+               ReferencedContainer = "container:Hex Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "66BF449A1CEFA75400A04CA3"
+            BuildableName = "Hex Watch Timer.app"
+            BlueprintName = "Hex Watch Timer"
+            ReferencedContainer = "container:Hex Timer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "4"
+      notificationPayloadFile = "Hex Watch Timer Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Hex Timer">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "66BF449A1CEFA75400A04CA3"
+            BuildableName = "Hex Watch Timer.app"
+            BlueprintName = "Hex Watch Timer"
+            ReferencedContainer = "container:Hex Timer.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "66BF449A1CEFA75400A04CA3"
+            BuildableName = "Hex Watch Timer.app"
+            BlueprintName = "Hex Watch Timer"
+            ReferencedContainer = "container:Hex Timer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "4"
+      notificationPayloadFile = "Hex Watch Timer Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Hex Timer">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "66BF449A1CEFA75400A04CA3"
+            BuildableName = "Hex Watch Timer.app"
+            BlueprintName = "Hex Watch Timer"
+            ReferencedContainer = "container:Hex Timer.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "66BF449A1CEFA75400A04CA3"
+            BuildableName = "Hex Watch Timer.app"
+            BlueprintName = "Hex Watch Timer"
+            ReferencedContainer = "container:Hex Timer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

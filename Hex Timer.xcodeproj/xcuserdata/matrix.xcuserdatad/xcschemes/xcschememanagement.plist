@@ -9,10 +9,35 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Hex Watch Timer (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Hex Watch Timer (Glance).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>Hex Watch Timer (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>Hex Watch Timer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>669C6D031CEF7CF00003F319</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66BF449A1CEFA75400A04CA3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

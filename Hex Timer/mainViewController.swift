@@ -63,10 +63,7 @@ class mainViewController: UIViewController, UITabBarDelegate {
         timeTypeSettings.delegate = self
         view.addSubview(timeTypeSettings)
         
-        updateClock(type: .Hexadecimal)
-        globalTimer = NSTimer.every(1.0.seconds) {
-            self.updateClock(type: .Hexadecimal)
-        }
+        switchClock(.Hexadecimal)
     }
 
     override func didReceiveMemoryWarning() {
@@ -93,9 +90,9 @@ class mainViewController: UIViewController, UITabBarDelegate {
 
         switch t {
         case .Binary:
-            secLabel.text = String(time.seconds(), radix: 2).pad(4)
+            secLabel.text = String(time.seconds(), radix: 2).pad(6)
             minLabel.text = String(time.minute(), radix: 2).pad(6)
-            hourLabel.text = String(time.hour(), radix: 2).pad(6)
+            hourLabel.text = String(time.hour(), radix: 2).pad(4)
             break
         case .Octal:
             secLabel.text = String(format: "%02Ob8", time.seconds())
@@ -117,8 +114,6 @@ class mainViewController: UIViewController, UITabBarDelegate {
     }
     
     func switchClock(type: TimeType) {
-        globalTimer.invalidate()
-        
         let size: CGFloat
         let t: String
         
@@ -147,8 +142,16 @@ class mainViewController: UIViewController, UITabBarDelegate {
         hourLabel.font = UIFont.systemFontOfSize(size)
         
         updateClock(type: type)
+
+        guard let _ = globalTimer else {
+            globalTimer = NSTimer.every(1.0.seconds, { 
+                self.updateClock(type: type)
+            })
+            return
+        }
         
-        globalTimer = NSTimer.every(1.0.seconds, {
+        globalTimer.invalidate()
+        globalTimer = NSTimer.every(1.0.seconds, { 
             self.updateClock(type: type)
         })
     }

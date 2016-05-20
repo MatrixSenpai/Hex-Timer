@@ -1,18 +1,22 @@
-# Uncomment this line to define a global platform for your project
 platform :ios, '9.2'
+use_frameworks!
+
+pod 'SwiftyTimer'
 
 target 'Hex Timer' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   pod 'MMDrawerController'
   pod 'FontAwesome.swift'
   pod 'Neon'
   pod 'ChameleonFramework/Swift'
-  pod 'SwiftyTimer'
   pod 'AFDateHelper'
   pod 'SwiftFontName'
 
+end
+
+target 'Hex Watch Timer' do
+  platform :watchos, '2.0'
 end
 
 post_install do | installer |
