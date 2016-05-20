@@ -1,8 +1,11 @@
 PODS:
+<<<<<<< HEAD
   - AFDateHelper (3.3.1)
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+=======
+>>>>>>> 035d62cbcf2c0c85a77ed611ec8c4a109d7d7678
   - FontAwesome.swift (0.7.3)
   - MMDrawerController (0.6.0):
     - MMDrawerController/Core (= 0.6.0)
@@ -17,6 +20,7 @@ PODS:
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
   - Neon (0.1.0)
+<<<<<<< HEAD
   - SwiftFontName (2.0.0)
   - SwiftyTimer (1.4.0)
 
@@ -39,5 +43,19 @@ SPEC CHECKSUMS:
   SwiftyTimer: db4458cfaf67fc71e16ad6e4637c60b86f76a649
 
 PODFILE CHECKSUM: 5ef3c65da10580fba00b661248e8a60b8d5b5ff3
+=======
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - MMDrawerController
+  - Neon
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: f694fe0f667d6d3390b5919cdb0556a27b75d427
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  Neon: 6bd929dbdf8f26b2129ce733e9290815345f6cb1
+
+PODFILE CHECKSUM: 3a94ec901f21ec2d2c443f99dd76a126b113a8d7
+>>>>>>> 035d62cbcf2c0c85a77ed611ec8c4a109d7d7678
 
 COCOAPODS: 1.0.0
