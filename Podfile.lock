@@ -1,0 +1,43 @@
+PODS:
+  - AFDateHelper (3.3.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - FontAwesome.swift (0.7.3)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - Neon (0.1.0)
+  - SwiftFontName (2.0.0)
+  - SwiftyTimer (1.4.0)
+
+DEPENDENCIES:
+  - AFDateHelper
+  - ChameleonFramework/Swift
+  - FontAwesome.swift
+  - MMDrawerController
+  - Neon
+  - SwiftFontName
+  - SwiftyTimer
+
+SPEC CHECKSUMS:
+  AFDateHelper: 3cf2296dc56cdc72af8fb8e73fb04ca0bd1999ae
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FontAwesome.swift: f694fe0f667d6d3390b5919cdb0556a27b75d427
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  Neon: 6bd929dbdf8f26b2129ce733e9290815345f6cb1
+  SwiftFontName: 7c3fdb6fc334cd4a8f2953c450a7b40c8d1400e4
+  SwiftyTimer: db4458cfaf67fc71e16ad6e4637c60b86f76a649
+
+PODFILE CHECKSUM: 5ef3c65da10580fba00b661248e8a60b8d5b5ff3
+
+COCOAPODS: 1.0.0
