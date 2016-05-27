@@ -13,6 +13,7 @@ target 'Hex Timer' do
   pod 'AFDateHelper'
   pod 'SwiftFontName'
   pod 'FontBlaster'
+  pod "DKChainableAnimationKit", "~> 1.6.1"
 
 end
 

@@ -3,6 +3,7 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - DKChainableAnimationKit (1.6.1)
   - FontAwesome.swift (0.7.3)
   - FontBlaster (2.1.3)
   - MMDrawerController (0.6.0):
@@ -24,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - AFDateHelper
   - ChameleonFramework/Swift
+  - DKChainableAnimationKit (~> 1.6.1)
   - FontAwesome.swift
   - FontBlaster
   - MMDrawerController
@@ -34,6 +36,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFDateHelper: 1fd229b038d3e0286b848078cf073d9ee6a48ea8
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DKChainableAnimationKit: e4e605d253ee153cb600efa68f8c97ed118122a7
   FontAwesome.swift: f694fe0f667d6d3390b5919cdb0556a27b75d427
   FontBlaster: c27ade4ad797400dec05221a54efa121c12ce079
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
@@ -41,6 +44,6 @@ SPEC CHECKSUMS:
   SwiftFontName: 7c3fdb6fc334cd4a8f2953c450a7b40c8d1400e4
   SwiftyTimer: db4458cfaf67fc71e16ad6e4637c60b86f76a649
 
-PODFILE CHECKSUM: 07c6fed768fe5cdb1fe635dc29bcffa5c8298ae8
+PODFILE CHECKSUM: ed56ebac3bf7699d73ee17fb15bad7d52038a35d
 
 COCOAPODS: 1.0.0
