@@ -15,10 +15,6 @@ target 'Hex Timer' do
 
 end
 
-target 'Hex Watch Timer' do
-  platform :watchos, '2.0'
-end
-
 post_install do | installer |
   require 'fileutils'
 

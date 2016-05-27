@@ -12,58 +12,17 @@
 		669C6D1C1CEF7F910003F319 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 669C6D1B1CEF7F910003F319 /* Settings.bundle */; };
 		669C6D1F1CEF81710003F319 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C6D1E1CEF81710003F319 /* mainViewController.swift */; };
 		66BF44981CEF9FB400A04CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BF44971CEF9FB400A04CA3 /* Assets.xcassets */; };
-		66BF449F1CEFA75400A04CA3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BF449D1CEFA75400A04CA3 /* Interface.storyboard */; };
-		66BF44A11CEFA75400A04CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BF44A01CEFA75400A04CA3 /* Assets.xcassets */; };
-		66BF44A81CEFA75400A04CA3 /* Hex Watch Timer Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 66BF44A71CEFA75400A04CA3 /* Hex Watch Timer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		66BF44AF1CEFA75400A04CA3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF44AE1CEFA75400A04CA3 /* InterfaceController.swift */; };
-		66BF44B11CEFA75400A04CA3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF44B01CEFA75400A04CA3 /* ExtensionDelegate.swift */; };
-		66BF44B31CEFA75400A04CA3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF44B21CEFA75400A04CA3 /* NotificationController.swift */; };
-		66BF44B51CEFA75400A04CA3 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF44B41CEFA75400A04CA3 /* GlanceController.swift */; };
-		66BF44B71CEFA75400A04CA3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF44B61CEFA75400A04CA3 /* ComplicationController.swift */; };
-		66BF44B91CEFA75400A04CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BF44B81CEFA75400A04CA3 /* Assets.xcassets */; };
-		66BF44BD1CEFA75400A04CA3 /* Hex Watch Timer.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 66BF449B1CEFA75400A04CA3 /* Hex Watch Timer.app */; };
 		66CEBB4F1CEF8354007CDA7E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEBB4E1CEF8354007CDA7E /* Time.swift */; };
-		66DE23ED1CEFAFCE003C7062 /* Pods_Hex_Watch_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DE23EC1CEFAFCE003C7062 /* Pods_Hex_Watch_Timer.framework */; };
 		E6E68D1EE0A67393BAD0B19E /* Pods_Hex_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990F96187835C1885CE7C424 /* Pods_Hex_Timer.framework */; };
-		EFECB8BD50AD9CCEB40D3D5A /* Pods_Hex_Watch_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5683F8100E5E20845BF9D9 /* Pods_Hex_Watch_Timer.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		66BF44A91CEFA75400A04CA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 669C6CFC1CEF7CF00003F319 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66BF44A61CEFA75400A04CA3;
-			remoteInfo = "Hex Watch Timer Extension";
-		};
-		66BF44BB1CEFA75400A04CA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 669C6CFC1CEF7CF00003F319 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66BF449A1CEFA75400A04CA3;
-			remoteInfo = "Hex Watch Timer";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		66BF44C31CEFA75400A04CA3 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				66BF44A81CEFA75400A04CA3 /* Hex Watch Timer Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66BF44C51CEFA75400A04CA3 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				66BF44BD1CEFA75400A04CA3 /* Hex Watch Timer.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,21 +38,7 @@
 		669C6D1B1CEF7F910003F319 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		669C6D1E1CEF81710003F319 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		66BF44971CEF9FB400A04CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		66BF449B1CEFA75400A04CA3 /* Hex Watch Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hex Watch Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BF449E1CEFA75400A04CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		66BF44A01CEFA75400A04CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		66BF44A21CEFA75400A04CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66BF44A71CEFA75400A04CA3 /* Hex Watch Timer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hex Watch Timer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BF44AD1CEFA75400A04CA3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		66BF44AE1CEFA75400A04CA3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		66BF44B01CEFA75400A04CA3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		66BF44B21CEFA75400A04CA3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		66BF44B41CEFA75400A04CA3 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
-		66BF44B61CEFA75400A04CA3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		66BF44B81CEFA75400A04CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		66BF44BA1CEFA75400A04CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66CEBB4E1CEF8354007CDA7E /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
-		66DE23EA1CEFAF1D003C7062 /* Hex Watch Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Hex Watch Timer.entitlements"; sourceTree = "<group>"; };
 		66DE23EB1CEFAF31003C7062 /* Hex Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Hex Timer.entitlements"; sourceTree = "<group>"; };
 		66DE23EC1CEFAFCE003C7062 /* Pods_Hex_Watch_Timer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Hex_Watch_Timer.framework; path = "../../../Library/Developer/Xcode/DerivedData/Hex_Timer-hghoarfrxszvzjfntcsxlkwafmur/Build/Products/Debug-watchos/Pods_Hex_Watch_Timer.framework"; sourceTree = "<group>"; };
 		6C5683F8100E5E20845BF9D9 /* Pods_Hex_Watch_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hex_Watch_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,22 +54,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E68D1EE0A67393BAD0B19E /* Pods_Hex_Timer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66BF44A41CEFA75400A04CA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66DE23ED1CEFAFCE003C7062 /* Pods_Hex_Watch_Timer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9465FB55B70E6B9921D2D57C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFECB8BD50AD9CCEB40D3D5A /* Pods_Hex_Watch_Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				669C6D061CEF7CF00003F319 /* Hex Timer */,
-				66BF449C1CEFA75400A04CA3 /* Hex Watch Timer */,
-				66BF44AB1CEFA75400A04CA3 /* Hex Watch Timer Extension */,
 				669C6D051CEF7CF00003F319 /* Products */,
 				AC60C1D98551057808193129 /* Pods */,
 				20ED807F3D77B8ED8F0637D6 /* Frameworks */,
@@ -157,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				669C6D041CEF7CF00003F319 /* Hex Timer.app */,
-				66BF449B1CEFA75400A04CA3 /* Hex Watch Timer.app */,
-				66BF44A71CEFA75400A04CA3 /* Hex Watch Timer Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,40 +109,6 @@
 				66BF44971CEF9FB400A04CA3 /* Assets.xcassets */,
 			);
 			name = Assets;
-			sourceTree = "<group>";
-		};
-		66BF449C1CEFA75400A04CA3 /* Hex Watch Timer */ = {
-			isa = PBXGroup;
-			children = (
-				66DE23EA1CEFAF1D003C7062 /* Hex Watch Timer.entitlements */,
-				66BF449D1CEFA75400A04CA3 /* Interface.storyboard */,
-				66BF44A01CEFA75400A04CA3 /* Assets.xcassets */,
-				66BF44A21CEFA75400A04CA3 /* Info.plist */,
-			);
-			path = "Hex Watch Timer";
-			sourceTree = "<group>";
-		};
-		66BF44AB1CEFA75400A04CA3 /* Hex Watch Timer Extension */ = {
-			isa = PBXGroup;
-			children = (
-				66BF44AE1CEFA75400A04CA3 /* InterfaceController.swift */,
-				66BF44B01CEFA75400A04CA3 /* ExtensionDelegate.swift */,
-				66BF44B21CEFA75400A04CA3 /* NotificationController.swift */,
-				66BF44B41CEFA75400A04CA3 /* GlanceController.swift */,
-				66BF44B61CEFA75400A04CA3 /* ComplicationController.swift */,
-				66BF44B81CEFA75400A04CA3 /* Assets.xcassets */,
-				66BF44BA1CEFA75400A04CA3 /* Info.plist */,
-				66BF44AC1CEFA75400A04CA3 /* Supporting Files */,
-			);
-			path = "Hex Watch Timer Extension";
-			sourceTree = "<group>";
-		};
-		66BF44AC1CEFA75400A04CA3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				66BF44AD1CEFA75400A04CA3 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		AC60C1D98551057808193129 /* Pods */ = {
@@ -249,49 +140,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				66BF44BC1CEFA75400A04CA3 /* PBXTargetDependency */,
 			);
 			name = "Hex Timer";
 			productName = "Hex Timer";
 			productReference = 669C6D041CEF7CF00003F319 /* Hex Timer.app */;
 			productType = "com.apple.product-type.application";
-		};
-		66BF449A1CEFA75400A04CA3 /* Hex Watch Timer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66BF44C41CEFA75400A04CA3 /* Build configuration list for PBXNativeTarget "Hex Watch Timer" */;
-			buildPhases = (
-				1DEE53EA591CBE40FFC8A5F9 /* 📦 Check Pods Manifest.lock */,
-				66BF44991CEFA75400A04CA3 /* Resources */,
-				66BF44C31CEFA75400A04CA3 /* Embed App Extensions */,
-				9465FB55B70E6B9921D2D57C /* Frameworks */,
-				563EF08EF87B8AB0C552A6AF /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				66BF44AA1CEFA75400A04CA3 /* PBXTargetDependency */,
-			);
-			name = "Hex Watch Timer";
-			productName = "Hex Watch Timer";
-			productReference = 66BF449B1CEFA75400A04CA3 /* Hex Watch Timer.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		66BF44A61CEFA75400A04CA3 /* Hex Watch Timer Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66BF44C21CEFA75400A04CA3 /* Build configuration list for PBXNativeTarget "Hex Watch Timer Extension" */;
-			buildPhases = (
-				66BF44A31CEFA75400A04CA3 /* Sources */,
-				66BF44A41CEFA75400A04CA3 /* Frameworks */,
-				66BF44A51CEFA75400A04CA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Hex Watch Timer Extension";
-			productName = "Hex Watch Timer Extension";
-			productReference = 66BF44A71CEFA75400A04CA3 /* Hex Watch Timer Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -308,21 +161,9 @@
 						DevelopmentTeam = 6S4L29QT59;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
-					};
-					66BF449A1CEFA75400A04CA3 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6S4L29QT59;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
-					};
-					66BF44A61CEFA75400A04CA3 = {
-						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -340,8 +181,6 @@
 			projectRoot = "";
 			targets = (
 				669C6D031CEF7CF00003F319 /* Hex Timer */,
-				66BF449A1CEFA75400A04CA3 /* Hex Watch Timer */,
-				66BF44A61CEFA75400A04CA3 /* Hex Watch Timer Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -357,56 +196,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66BF44991CEFA75400A04CA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66BF44A11CEFA75400A04CA3 /* Assets.xcassets in Resources */,
-				66BF449F1CEFA75400A04CA3 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66BF44A51CEFA75400A04CA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66BF44B91CEFA75400A04CA3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DEE53EA591CBE40FFC8A5F9 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		563EF08EF87B8AB0C552A6AF /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hex Watch Timer/Pods-Hex Watch Timer-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7159C3BA1E2F864AF14A4595 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,43 +257,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66BF44A31CEFA75400A04CA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66BF44B31CEFA75400A04CA3 /* NotificationController.swift in Sources */,
-				66BF44B11CEFA75400A04CA3 /* ExtensionDelegate.swift in Sources */,
-				66BF44B71CEFA75400A04CA3 /* ComplicationController.swift in Sources */,
-				66BF44AF1CEFA75400A04CA3 /* InterfaceController.swift in Sources */,
-				66BF44B51CEFA75400A04CA3 /* GlanceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		66BF44AA1CEFA75400A04CA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66BF44A61CEFA75400A04CA3 /* Hex Watch Timer Extension */;
-			targetProxy = 66BF44A91CEFA75400A04CA3 /* PBXContainerItemProxy */;
-		};
-		66BF44BC1CEFA75400A04CA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66BF449A1CEFA75400A04CA3 /* Hex Watch Timer */;
-			targetProxy = 66BF44BB1CEFA75400A04CA3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		66BF449D1CEFA75400A04CA3 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66BF449E1CEFA75400A04CA3 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		669C6D141CEF7CF00003F319 /* Debug */ = {
@@ -593,7 +349,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = "Hex Timer/Hex Timer.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Hex Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -609,81 +364,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = "Hex Timer/Hex Timer.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Hex Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.matrixstudios.Hex-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		66BF44BE1CEFA75400A04CA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91F6B7CFD388481401556F79 /* Pods-Hex Watch Timer.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Hex Watch Timer/Hex Watch Timer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = Hex_Watch_Timer_Extension;
-				INFOPLIST_FILE = "Hex Watch Timer/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.matrixstudios.Hex-Timer.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		66BF44BF1CEFA75400A04CA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 831F827C02341D27012AE783 /* Pods-Hex Watch Timer.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Hex Watch Timer/Hex Watch Timer.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = Hex_Watch_Timer_Extension;
-				INFOPLIST_FILE = "Hex Watch Timer/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.matrixstudios.Hex-Timer.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		66BF44C01CEFA75400A04CA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				INFOPLIST_FILE = "Hex Watch Timer Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.matrixstudios.Hex-Timer.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		66BF44C11CEFA75400A04CA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				INFOPLIST_FILE = "Hex Watch Timer Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.matrixstudios.Hex-Timer.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
@@ -704,24 +390,6 @@
 			buildConfigurations = (
 				669C6D171CEF7CF00003F319 /* Debug */,
 				669C6D181CEF7CF00003F319 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		66BF44C21CEFA75400A04CA3 /* Build configuration list for PBXNativeTarget "Hex Watch Timer Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66BF44C01CEFA75400A04CA3 /* Debug */,
-				66BF44C11CEFA75400A04CA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		66BF44C41CEFA75400A04CA3 /* Build configuration list for PBXNativeTarget "Hex Watch Timer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66BF44BE1CEFA75400A04CA3 /* Debug */,
-				66BF44BF1CEFA75400A04CA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
