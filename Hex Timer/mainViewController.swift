@@ -27,22 +27,22 @@ class mainViewController: UIViewController, UITabBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleLabel.font = UIFont.systemFontOfSize(30)
+        titleLabel.font = UIFont.systemFontOfSize(40)
         titleLabel.textAlignment = .Center
         titleLabel.backgroundColor = FlatGray()
         view.addSubview(titleLabel)
 
-        hourLabel.font = UIFont.systemFontOfSize(40)
+        hourLabel.font = UIFont(name: "alarmclock", size: 40)
         hourLabel.backgroundColor = FlatGrayDark()
         hourLabel.textAlignment = .Center
         view.addSubview(hourLabel)
         
-        minLabel.font = UIFont.systemFontOfSize(40)
+        minLabel.font = UIFont(name: "alarmclock", size: 40)
         minLabel.backgroundColor = FlatGrayDark()
         minLabel.textAlignment = .Center
         view.addSubview(minLabel)
         
-        secLabel.font = UIFont.systemFontOfSize(40)
+        secLabel.font = UIFont(name: "alarmclock", size: 40)
         secLabel.backgroundColor = FlatGrayDark()
         secLabel.textAlignment = .Center
         view.addSubview(secLabel)
@@ -114,32 +114,10 @@ class mainViewController: UIViewController, UITabBarDelegate {
     }
     
     func switchClock(type: TimeType) {
-        let size: CGFloat
-        let t: String
-        
-        switch type {
-        case .Binary:
-            size = 25
-            t = "Bin"
-            break
-        case .Octal:
-            size = 30
-            t = "Oct"
-            break
-        case .Decimal:
-            size = 40
-            t = "Dec"
-        case .Hexadecimal: fallthrough
-        default:
-            size = 40
-            t = "Hex"
-            break
-        }
-        
-        titleLabel.text = "Current Time (\(t))"
-        secLabel.font = UIFont.systemFontOfSize(size)
-        minLabel.font = UIFont.systemFontOfSize(size)
-        hourLabel.font = UIFont.systemFontOfSize(size)
+        titleLabel.text = "Current Time (\(type.typeName))"
+        secLabel.font = UIFont(name: "alarmclock", size: type.fontSize)
+        minLabel.font = UIFont(name: "alarmclock", size: type.fontSize)
+        hourLabel.font = UIFont(name: "alarmclock", size: type.fontSize)
         
         updateClock(type: type)
 
@@ -157,12 +135,9 @@ class mainViewController: UIViewController, UITabBarDelegate {
     }
     
     func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
-        
-        let chars = item.title!.componentsSeparatedByCharactersInSet(NSCharacterSet.decimalDigitCharacterSet().invertedSet)
-        let char = Int(chars.joinWithSeparator(""))
-        
-        let type = TimeType(rawValue: char!)
-        switchClock(type!)
+
+        let type = TimeType.typeForBaseNotation(notation: item.title!)
+        switchClock(type)
     }
 }
 
@@ -171,4 +146,45 @@ enum TimeType: Int {
     case Octal = 8
     case Decimal = 10
     case Hexadecimal = 16
+    
+    var typeName: String {
+        switch rawValue {
+        case 2:
+            return "Bin"
+        case 8:
+            return "Oct"
+        case 10:
+            return "Dec"
+        case 16: fallthrough
+        default:
+            return "Hex"
+        }
+    }
+    
+    var fontSize: CGFloat {
+        switch rawValue {
+        case 2:
+            return 25
+        case 8:
+            return 30
+        case 10: fallthrough
+        case 16: fallthrough
+        default:
+            return 40
+        }
+    }
+    
+    static func typeForBaseNotation(notation n: String) -> TimeType {
+        switch n {
+        case "b2":
+            return .Binary
+        case "b8":
+            return .Octal
+        case "b10":
+            return .Decimal
+        case "b16": fallthrough
+        default:
+            return .Hexadecimal
+        }
+    }
 }

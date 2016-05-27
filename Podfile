@@ -12,6 +12,7 @@ target 'Hex Timer' do
   pod 'ChameleonFramework/Swift'
   pod 'AFDateHelper'
   pod 'SwiftFontName'
+  pod 'FontBlaster'
 
 end
 

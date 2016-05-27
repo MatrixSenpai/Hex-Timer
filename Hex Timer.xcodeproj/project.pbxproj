@@ -12,6 +12,7 @@
 		669C6D1C1CEF7F910003F319 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 669C6D1B1CEF7F910003F319 /* Settings.bundle */; };
 		669C6D1F1CEF81710003F319 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C6D1E1CEF81710003F319 /* mainViewController.swift */; };
 		66BF44981CEF9FB400A04CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BF44971CEF9FB400A04CA3 /* Assets.xcassets */; };
+		66C8F7BA1CF7D73200496A3D /* alarm clock.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66C8F7B91CF7D67D00496A3D /* alarm clock.ttf */; };
 		66CEBB4F1CEF8354007CDA7E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEBB4E1CEF8354007CDA7E /* Time.swift */; };
 		E6E68D1EE0A67393BAD0B19E /* Pods_Hex_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990F96187835C1885CE7C424 /* Pods_Hex_Timer.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		669C6D1B1CEF7F910003F319 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		669C6D1E1CEF81710003F319 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		66BF44971CEF9FB400A04CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C8F7B91CF7D67D00496A3D /* alarm clock.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alarm clock.ttf"; sourceTree = "<group>"; };
 		66CEBB4E1CEF8354007CDA7E /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		66DE23EB1CEFAF31003C7062 /* Hex Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Hex Timer.entitlements"; sourceTree = "<group>"; };
 		66DE23EC1CEFAFCE003C7062 /* Pods_Hex_Watch_Timer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Hex_Watch_Timer.framework; path = "../../../Library/Developer/Xcode/DerivedData/Hex_Timer-hghoarfrxszvzjfntcsxlkwafmur/Build/Products/Debug-watchos/Pods_Hex_Watch_Timer.framework"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				669C6D131CEF7CF00003F319 /* Info.plist */,
 				669C6D191CEF7D5A0003F319 /* Launch Screen.storyboard */,
+				66C8F7B91CF7D67D00496A3D /* alarm clock.ttf */,
 				669C6D1B1CEF7F910003F319 /* Settings.bundle */,
 				66BF44971CEF9FB400A04CA3 /* Assets.xcassets */,
 			);
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				669C6D1A1CEF7D5A0003F319 /* Launch Screen.storyboard in Resources */,
+				66C8F7BA1CF7D73200496A3D /* alarm clock.ttf in Resources */,
 				66BF44981CEF9FB400A04CA3 /* Assets.xcassets in Resources */,
 				669C6D1C1CEF7F910003F319 /* Settings.bundle in Resources */,
 			);
