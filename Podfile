@@ -1,19 +1,17 @@
 platform :ios, '9.2'
-use_frameworks!
 
 pod 'SwiftyTimer'
 
 target 'Hex Timer' do
   use_frameworks!
+  inhibit_all_warnings!
 
-  pod 'MMDrawerController'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git', :branch => 'wip/swift4'
+
   pod 'FontAwesome.swift'
   pod 'Neon'
-  pod 'ChameleonFramework/Swift'
-  pod 'AFDateHelper'
-  pod 'SwiftFontName'
   pod 'FontBlaster'
-  pod "DKChainableAnimationKit", "~> 1.6.1"
+  pod 'AFDateHelper', '~> 4.2.2'
 
 end
 

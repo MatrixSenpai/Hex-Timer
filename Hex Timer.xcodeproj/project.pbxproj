@@ -11,6 +11,7 @@
 		669C6D1A1CEF7D5A0003F319 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669C6D191CEF7D5A0003F319 /* Launch Screen.storyboard */; };
 		669C6D1C1CEF7F910003F319 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 669C6D1B1CEF7F910003F319 /* Settings.bundle */; };
 		669C6D1F1CEF81710003F319 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C6D1E1CEF81710003F319 /* mainViewController.swift */; };
+		66B05CDC21A334FB008812DB /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B05CDB21A334FB008812DB /* UIKit.swift */; };
 		66BF44981CEF9FB400A04CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BF44971CEF9FB400A04CA3 /* Assets.xcassets */; };
 		66C8F7BA1CF7D73200496A3D /* alarm clock.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66C8F7B91CF7D67D00496A3D /* alarm clock.ttf */; };
 		66CEBB4F1CEF8354007CDA7E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEBB4E1CEF8354007CDA7E /* Time.swift */; };
@@ -38,6 +39,7 @@
 		669C6D191CEF7D5A0003F319 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		669C6D1B1CEF7F910003F319 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		669C6D1E1CEF81710003F319 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		66B05CDB21A334FB008812DB /* UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
 		66BF44971CEF9FB400A04CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C8F7B91CF7D67D00496A3D /* alarm clock.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alarm clock.ttf"; sourceTree = "<group>"; };
 		66CEBB4E1CEF8354007CDA7E /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				669C6D071CEF7CF00003F319 /* AppDelegate.swift */,
 				669C6D1E1CEF81710003F319 /* mainViewController.swift */,
 				66CEBB4E1CEF8354007CDA7E /* Time.swift */,
+				66B05CDB21A334FB008812DB /* UIKit.swift */,
 				669C6D1D1CEF81560003F319 /* Assets */,
 			);
 			path = "Hex Timer";
@@ -132,13 +135,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 669C6D161CEF7CF00003F319 /* Build configuration list for PBXNativeTarget "Hex Timer" */;
 			buildPhases = (
+				1786E02ECA56B0A2C1E5623A /* [CP] Check Pods Manifest.lock */,
 				EF7AE0ED62A22E9D81417B81 /* 📦 Check Pods Manifest.lock */,
 				669C6D001CEF7CF00003F319 /* Sources */,
 				669C6D011CEF7CF00003F319 /* Frameworks */,
 				669C6D021CEF7CF00003F319 /* Resources */,
 				66BF44C51CEFA75400A04CA3 /* Embed Watch Content */,
 				7159C3BA1E2F864AF14A4595 /* 📦 Embed Pods Frameworks */,
-				756A115AEFAB2D6D2E0AA64A /* 📦 Copy Pods Resources */,
+				B02C7EB9CD687CF2BD8F5973 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +166,7 @@
 					669C6D031CEF7CF00003F319 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6S4L29QT59;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -203,6 +208,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1786E02ECA56B0A2C1E5623A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hex Timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7159C3BA1E2F864AF14A4595 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,19 +245,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hex Timer/Pods-Hex Timer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		756A115AEFAB2D6D2E0AA64A /* 📦 Copy Pods Resources */ = {
+		B02C7EB9CD687CF2BD8F5973 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hex Timer/Pods-Hex Timer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
+				"${BUILT_PRODUCTS_DIR}/Neon/Neon.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Neon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hex Timer/Pods-Hex Timer-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hex Timer/Pods-Hex Timer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF7AE0ED62A22E9D81417B81 /* 📦 Check Pods Manifest.lock */ = {
@@ -255,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B05CDC21A334FB008812DB /* UIKit.swift in Sources */,
 				66CEBB4F1CEF8354007CDA7E /* Time.swift in Sources */,
 				669C6D081CEF7CF00003F319 /* AppDelegate.swift in Sources */,
 				669C6D1F1CEF81710003F319 /* mainViewController.swift in Sources */,
@@ -359,6 +404,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.matrixstudios.Hex-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -374,6 +421,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.matrixstudios.Hex-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
